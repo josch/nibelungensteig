@@ -1,0 +1,101 @@
+body { font-family: Verdana; font-size: 100.01%; background-image: url(hinten.gif); background-repeat:repeat; margin:0; padding:0; }
+
+#links {
+	border:solid 1px #a5a5a5;
+	background:#fffada;
+	font-size: 0.8em;
+}
+
+#links ul {
+	margin-bottom:5px;
+}
+
+#links ul li {
+}
+
+#links ul li ul {
+}
+
+#links ul li ul li {
+	margin-bottom:3px; 
+}
+
+#links ul li a:link {
+	font-weight:normal; color:black; text-decoration:none; border-bottom: 1px dotted black;
+}
+
+#links ul li a:visited {
+	font-weight:normal; color:black; text-decoration:none; border-bottom: 1px dotted black;
+}
+#links ul li a:hover {
+	color:black; border-bottom: 2px solid #a40000;
+}
+#links ul li.active a {
+	font-weight:bold; color:black; text-decoration:none; border-bottom: none;
+}
+
+#inhalt { background:#fffada url(hinten.gif); font-size: 10px; }
+
+#inhalt p {
+	line-height: 1.4em;
+}
+
+#inhalt a { font-weight:normal; text-decoration:none;  }
+#inhalt a:link { color:black; border-bottom: 1px solid black; }
+#inhalt a:visited { color:black; border-bottom: 1px dotted #a5a5a5; }
+#inhalt a:focus { color:#a40000; }
+#inhalt a:hover { color:black; border-bottom: 2px solid #a40000; }
+#inhalt a:active { color:#a40000; }
+
+a.imagelink { font-weight:normal; text-decoration:none; }
+a.imagelink:link { color:black; text-decoration:none; border:0; }
+a.imagelink:visited { color:black; text-decoration:none; border:0; }
+a.imagelink:focus { color:#a40000; text-decoration:none; border:0; }
+a.imagelink:hover { color:black; text-decoration:none; border:0; }
+a.imagelink:active { color:#a40000; text-decoration:none; border:0; }
+
+h1 {
+	font-size: 1.3em;
+}
+
+h2 {
+	font-size: 1.1em;
+}
+
+h3 {
+	font-size: 1.0em;
+}
+
+#rechts {
+	border:solid 1px #a5a5a5;
+	background:#fffada;
+	font-size: 0.8em;
+}
+
+#rechts ul li {
+	margin-bottom: 5px;
+}
+
+#rechts form {
+	margin:0;
+}
+
+#rechts fieldset {
+	border:0;
+	margin:0;
+	padding:0;
+}
+
+#rexsearchbtn {
+	width:20%;
+}
+
+#rechts a { font-weight:normal; text-decoration:none;  }
+#rechts a:link { color:black; border-bottom: 1px solid black; }
+#rechts a:visited { color:black; border-bottom: 1px dotted #a5a5a5; }
+#rechts a:focus { color:#a40000; }
+#rechts a:hover { color:black; border-bottom: 2px solid #a40000; }
+#rechts a:active { color:#a40000; }
+h5 {
+	font-size: 1.0em;
+}
